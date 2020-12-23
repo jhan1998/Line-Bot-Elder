@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+pygraphviz = "*"
+flask = "*"
+line-bot-sdk = "*"
+transitions = "*"
+python-dotenv = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+selenium = "*"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.9"
