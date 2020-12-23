@@ -176,9 +176,6 @@ class TocMachine(GraphMachine):
     def is_going_to_option(self, event):
         if event.message.text.lower() == "menu":
             return True
-        else :
-            push_text_message(event.source.user_id, "請重新輸入")
-            return False
 
     def is_going_to_elder(self, event):
         return event.message.text.lower() == "elder image" or event.message.text.lower() == "elder image "
