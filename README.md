@@ -11,6 +11,14 @@
 ## 說明
 > 使用FSM(有限狀態機)的概念 實作Line Bot
 
+## 構想
+應該很多人都收過家中長輩傳來一種畫質不是很高，總寫著奇怪標語的圖片吧。我自己常常不知道要怎麼回，所以開發出這個Line Bot幫忙大家可以找出回應長輩的圖來增進親子感情。其中還可以藉由維基百科的爬蟲，得知一些老人容易得到的疾病，再來如果想念家中長輩的話，不妨馬上查一下最近的火車班次馬上回家看看吧。
+
+## 架構
+* google圖片爬蟲
+* 維基百科爬蟲 
+* 台鐵資料庫json檔解析(因為新版台鐵網站沒辦法使用爬蟲爬資料)
+
 建立一個可以列出搜尋長輩圖，基本疾病資料，火車時刻表的Line Bot
 
 ## 功能
@@ -60,3 +68,14 @@
 </p>
 
 ## Demo
+![img1](./img/img1.jpg)
+![img2](./img/img2.jpg)
+![img3](./img/img3.jpg)
+![img4](./img/img4.jpg)
+![winter](./img/winter.jpg)
+![peace](./img/peace.jpg)
+![img5](./img/img5.jpg)
+![img6](./img/img6.jpg)
+![img7](./img/img7.jpg)
+![img8](./img/img8.jpg)
+![img9](./img/img9.jpg)
