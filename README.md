@@ -68,14 +68,36 @@
 </p>
 
 ## Demo
-![img1](./img/img1.jpg)
-![img2](./img/img2.jpg)
-![img3](./img/img3.jpg)
-![img4](./img/img4.jpg)
-![winter](./img/winter.jpg)
-![peace](./img/peace.jpg)
-![img5](./img/img5.jpg)
-![img6](./img/img6.jpg)
-![img7](./img/img7.jpg)
-![img8](./img/img8.jpg)
-![img9](./img/img9.jpg)
+<p align=center>
+<img src="./img/img1.jpg" width="384" height="682.4">
+</p>
+<p align=center>
+<img src="./img/img2.jpg" width="384" height="682.4">
+</p>
+<p align=center>
+<img src="./img/img3.jpg" width="384" height="682.4">
+</p>
+<p align=center>
+<img src="./img/img4.jpg" width="384" height="682.4">
+</p>
+<p align=center>
+<img src="./img/winter.jpg" width="384" height="682.4">
+</p>
+<p align=center>
+<img src="./img/peace.jpg" width="384" height="682.4">
+</p>
+<p align=center>
+<img src="./img/img5.jpg" width="384" height="682.4">
+</p>
+<p align=center>
+<img src="./img/img6.jpg" width="384" height="682.4">
+</p>
+<p align=center>
+<img src="./img/img7.jpg" width="384" height="682.4">
+</p>
+<p align=center>
+<img src="./img/img8.jpg" width="384" height="682.4">
+</p>
+<p align=center>
+<img src="./img/img9.jpg" width="384" height="682.4">
+</p>
