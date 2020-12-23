@@ -174,7 +174,7 @@ class TocMachine(GraphMachine):
         )
 
     def is_going_to_option(self, event):
-        if event.message.text.lower() == "menu":
+        if event.message.text.lower() == "menu" or event.message.text.lower() == "menu ":
             return True
 
     def is_going_to_elder(self, event):
@@ -235,14 +235,14 @@ class TocMachine(GraphMachine):
             return True
     
     def is_going_to_restart(self, event):
-        if event.message.text.lower() == "restart":
+        if event.message.text.lower() == "restart" or event.message.text.lower() == "restart ":
             return True
         else :
             push_text_message(event.source.user_id, "請重新輸入")
             return False
 
     def is_going_to_restartK(self, event):
-        if event.message.text.lower() == "restart":
+        if event.message.text.lower() == "restart" or event.message.text.lower() == "restart ":
             return True
         else :
             push_text_message(event.source.user_id, "請重新輸入")
@@ -390,7 +390,8 @@ class TocMachine(GraphMachine):
         else:
             push_text_message(event.source.user_id, res)
         push_text_message(event.source.user_id, "想查詢更多班次請上台鐵官網查詢\nhttps://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime")
-        push_text_message(event.source.user_id, "想了解更多資訊請輸入『restart』\n想回到目錄請輸入『menu』")
+        push_text_message(event.source.user_id, "想了解更多資訊請輸入『restart』\n想回到目錄請輸入『menu")
 
     def on_enter_fsm(self, event):
         send_fsm_graph(event.reply_token)
+        push_text_message(event.source.user_id, "想回到目錄請輸入『menu』")
