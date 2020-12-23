@@ -256,7 +256,7 @@ class TocMachine(GraphMachine):
 
     def on_enter_option(self, event):
         print("I'm entering option")
-        reply_text = "輸入『 Elder Image 』即可開始搜尋長輩圖。\n輸入『 Knowledge 』來了解一些老年疾病知識。\n想念家中長輩了嗎？快輸入『train』來查詢火車時刻。\n輸入『 FSM 』來查看狀態圖。"
+        reply_text = "輸入『 Elder Image 』即可開始搜尋長輩圖。\n輸入『 Knowledge 』來了解一些老年疾病知識。\n輸入『train』來查詢火車時刻。\n輸入『 FSM 』來查看狀態圖。"
         push_text_message(event.source.user_id, reply_text)
         send_image_message(event.reply_token, "https://i0.wp.com/www.saydigi.com/wp-content/uploads/2018/05/8ce003614e9ce281ed5b881d1e388167.png")
 
