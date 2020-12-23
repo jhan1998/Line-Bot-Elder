@@ -7,6 +7,9 @@
     <a target="_blank" href="#" title="language count"><img src="https://img.shields.io/github/languages/count/lofoz/LineBot?color=red"></a>
     <a target="_blank" href="#" title="top language"><img src="https://img.shields.io/github/languages/top/lofoz/LineBot?color=purple"></a>
 </p>
+<p align=center>
+<img src="./img/436qifls.png" width="200" height="200" title="OR-code">
+</p>
 
 ## 說明
 > 使用FSM(有限狀態機)的概念 實作Line Bot
