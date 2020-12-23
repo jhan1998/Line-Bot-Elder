@@ -154,19 +154,19 @@ def search_train(station1, station2, time):
             if j['Station'] == toS[0:4] and first_flag == 1:
                 s_time = j['ARRTime']
                 if(i['CarClass'][0:3] == '110'):
-                    out = fromS + " 到 " + toS + "\t車種：自強號\n出發時間：" + f_time + "\n抵達時間：" + s_time
+                    out = fromS + " 到 " + toS + "\n車種：自強號\n出發時間：" + f_time + "\n抵達時間：" + s_time
                     result = result + out
                     result = result + '\n---------------------------\n'
                 elif(i['CarClass'][0:3] == '111'):
-                    out = fromS + " 到 " + toS + "\t車種：莒光號\n出發時間：" + f_time + "\n抵達時間：" + s_time
+                    out = fromS + " 到 " + toS + "\n車種：莒光號\n出發時間：" + f_time + "\n抵達時間：" + s_time
                     result = result + out
                     result = result + '\n---------------------------\n'
                 elif(i['CarClass'] == '1131'):
-                    out = fromS + " 到 " + toS + "\t車種：區間車\n出發時間：" + f_time + "\n抵達時間：" + s_time
+                    out = fromS + " 到 " + toS + "\n車種：區間車\n出發時間：" + f_time + "\n抵達時間：" + s_time
                     result = result + out
                     result = result + '\n---------------------------\n'
                 elif(i['CarClass'] == '1132'):
-                    out = fromS + " 到 " + toS + "\t車種：區間快車\n出發時間：" + f_time + "\n抵達時間：" + s_time
+                    out = fromS + " 到 " + toS + "\n車種：區間快車\n出發時間：" + f_time + "\n抵達時間：" + s_time
                     result = result + out
                     result = result + '\n---------------------------\n'
                 search_flag = 1
